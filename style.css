@@ -1,0 +1,115 @@
+/* ---------- ----------------*/
+/* ---------- VARIABLES ----------------*/
+
+:root {
+  --light-blue: #71a1be;
+  --medium-blue: #005282;
+  --dark-blue: #05263a;
+  --pink: #f58c99;
+  --lato-font: "Lato", sans-serif;
+  --arial-font: arial, sans-serif;
+}
+
+/* ---------- RESETS ----------------*/
+
+body {
+  margin: 0;
+  text-align: center;
+  /* width: 100%; */
+}
+
+ul {
+  margin: 20px 60px;
+  /* list-style: url(https://d13p2xj50zkyqm.cloudfront.net/promos_1/AF/RGS/RGS_Hotlist_0617/RGS_Hotlist_0617_CheckmarkBox.png); */
+  
+}
+
+ul>li {
+  text-align: left;
+  display: list-item;
+  list-style: url(https://d13p2xj50zkyqm.cloudfront.net/promos_1/AF/RGS/RGS_Hotlist_0617/RGS_Hotlist_0617_CheckmarkBox.png);
+}
+
+hr {
+  height: 2px;
+  background: var(--medium-blue);
+  width: 60%;
+}
+
+input[type="checkbox"] + label {
+  font-family: var(--lato-font);
+  padding: 0 0 0 15px;
+  font-size: 12px;
+}
+
+/* ---------- MOBILE LAYOUT ----------------*/
+
+.page-wrap {
+  width: 100%;
+}
+
+.page-wrap p:nth-child(3) {
+  font-weight: 700;
+  font-family: var(--arial-font);
+}
+
+.btn {
+  background-color: var(--medium-blue);
+  color: #fff;
+  border-radius: 10px;
+  border: solid var(--dark-blue) 1px;
+  padding: 15px 7rem;
+  margin: 20px 0 20px;
+  font-size: 14px;
+}
+
+#calendar {
+  background-color: var(--light-blue);
+  color: #fff;
+  line-height: 1.75rem;
+  padding: 30px 0;
+}
+
+#timer-container {
+  background-color: var(--light-blue);
+  color: #fff;
+  line-height: 1.75rem;
+  padding: 20px 0 60px;
+}
+
+#bio {
+  background-color: var(--dark-blue);
+  color: #fff;
+  padding: 2.25rem;
+}
+
+#bio img {
+  text-align: center;
+  width: 85%;
+  height: 85%;
+}
+
+#warning {
+  background-color: var(--pink);
+  color: #fff;
+  padding: 1rem .25rem;
+  line-height: 1.5rem;
+}
+
+#claim-spot {
+  background-color: var(--dark-blue);
+  color: #fff;
+  padding: 1.25rem .25rem;
+  margin-bottom: 20px;
+}
+
+/* #first-newsletter {
+
+}
+
+#second-newsletter {
+
+} */
+
+
+/* ---------- MEDIA QUERIES ----------------*/
