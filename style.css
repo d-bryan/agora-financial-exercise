@@ -48,9 +48,10 @@ input[type="checkbox"] + label {
   width: 100%;
 }
 
-.page-wrap p:nth-child(3) {
+#intro-description {
   font-weight: 700;
   font-family: var(--arial-font);
+  padding: 0 15px;
 }
 
 .btn {
@@ -96,6 +97,10 @@ input[type="checkbox"] + label {
   line-height: 1.5rem;
 }
 
+#warning-symbol {
+  display: none;
+}
+
 #claim-spot {
   background-color: var(--dark-blue);
   color: #fff;
@@ -103,13 +108,101 @@ input[type="checkbox"] + label {
   margin-bottom: 20px;
 }
 
-/* #first-newsletter {
+/* ---------- MEDIA QUERIES ----------------*/
+
+@media screen and (min-width: 1023px) {
+
+  hr {
+    width: 40%;
+  }
+
+  .page-wrap {
+    width: 100%;
+  }
+
+  #intro-description {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0 10rem;
+  }
+
+  #intro-description p {
+    padding: 0 7rem;
+  }
+
+  .btn {
+    padding: 1rem 10rem;
+    font-size: 20px;
+  }
+
+  #desktop-container {
+    margin: 0 10rem;
+  }
+
+  .flex-container {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+    width: fit-content;
+  }
+
+  #calendar {
+    float: left;
+    flex: 1;
+    margin-right: 2rem;
+    padding: 1.5rem 7.3rem;
+    /* width: 30%; */
+  }
+
+  #timer-container {
+    float: right;
+    flex: 4;
+    /* padding: 0 15rem; */
+    /* width: 70%; */
+    width: 800px
+  }
+
+  #bio {
+    float: left;
+    flex: 2;
+    /* padding: 3.5rem 0; */
+    padding-top: 10rem;
+  }
+
+  #bio img {
+    height: 60vh;
+    width: 25vw;
+  }
+
+  #warning-symbol {
+    display: inline-table;
+    width: 50px;
+    height: 50px;
+    padding: 0px 30px 0;
+    margin-block-start: 1.5em;
+    margin-block-end: 1.5em;
+  }
+
+  #warning {
+    display: table;
+    width: 100%;
+    padding: 0;
+  }
+
+  #warning p {
+    display: inline-table;
+    vertical-align: text-top;
+    margin-block-start: -2.75em;
+    margin-block-end: 0em;
+  }
+
+  #webinar-details {
+    float: right;
+    flex: 2;
+    padding: 3.5rem;
+    font-size: 1.5rem;
+  }
+
 
 }
-
-#second-newsletter {
-
-} */
-
-
-/* ---------- MEDIA QUERIES ----------------*/
