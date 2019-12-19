@@ -98,11 +98,6 @@ input[type="checkbox"] + label {
   height: 85%;
 }
 
-/* #webinar-details li {
-  text-align: left;
-  padding-left: 20px;
-} */
-
 #warning {
   background-color: var(--pink);
   color: #fff;
