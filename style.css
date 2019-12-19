@@ -104,6 +104,17 @@ input[type="checkbox"] + label {
   margin-bottom: 20px;
 }
 
+#timer {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  padding: 3.5rem 0 0;
+}
+
+.success {
+  font-size: 22px;
+  padding: 0 0 20px;
+}
+
 /* ---------- MEDIA QUERIES ----------------*/
 
 @media screen and (min-width: 1023px) {
@@ -198,8 +209,6 @@ input[type="checkbox"] + label {
 
   #timer {
     font-size: 2.5rem;
-    line-height: 1.75rem;
-    padding: 3.5rem 0 0;
   }
 
   .success {
