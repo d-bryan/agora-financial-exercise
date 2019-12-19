@@ -26,6 +26,7 @@ ul>li {
   list-style-type: none;
   margin-right: 15px;
   font-family: var(--lato-font);
+  line-height: 1.25em;
 }
 
 hr {
@@ -147,8 +148,8 @@ input[type="checkbox"] + label {
     margin: 0 10rem;
   }
 
-  #intro-description p {
-    padding: 0 7rem;
+  #intro-description p:last-child {
+    padding: 0 25%;
   }
 
   .btn {
@@ -193,7 +194,10 @@ input[type="checkbox"] + label {
   }
 
   #webinar-details {
+    float: right;
+    flex: 3;
     padding-right: 0;
+    font-size: 1.5rem;
   }
 
   #webinar-details li {
@@ -228,13 +232,6 @@ input[type="checkbox"] + label {
     vertical-align: text-top;
     margin-block-start: -2.75em;
     margin-block-end: 0em;
-  }
-
-  #webinar-details {
-    float: right;
-    flex: 2;
-    padding: 3.5rem;
-    font-size: 1.5rem;
   }
 
   #timer {
