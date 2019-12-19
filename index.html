@@ -28,7 +28,7 @@
       
 
       <!-- first input value checkbox -->
-      <input type="checkbox" id="first-newsletter" name=first-newsletter" checked>
+      <input type="checkbox" id="first-newsletter" class="checkbox" name=first-newsletter" checked>
       <label for="first-newsletter">I would like to receive a free news letter</label>
 
       <br/>
@@ -36,6 +36,7 @@
       <!-- register for free to live webinar button -->
       <div>
         <button id="register-free-btn" class="btn" type="button">Register for this FREE <br/>live Webinar Here!</button>
+        <p class="success"></p>
       </div>
 
       <!-- container for desktop sizing -->
@@ -84,15 +85,23 @@
       </div>
 
       <!-- second input value checkbox -->
-      <input type="checkbox" id="second-newsletter" name="second-newsletter" checked>
+      <input type="checkbox" id="second-newsletter" class="checkbox" name="second-newsletter" checked>
       <label for="second-newsletter">I would like to receive a free news letter</label>
 
       <br/>
 
       <!-- reserve my spot now button -->
-      <button id="reserve-my-spot-btn" class="btn" type="button">YES! Reserve My Spot Now! >></button>
+      <div>
+        <button id="reserve-my-spot-btn" class="btn" type="button">YES! Reserve My Spot Now! >></button>
+        <p class="success"></p>
+      </div>
 
     </div>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous">
+    </script>
     <script type="text/javascript" src="./index.js"></script>
   </body>
 </html>
