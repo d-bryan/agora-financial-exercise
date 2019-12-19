@@ -4,7 +4,7 @@
 
 The goal of this exercise is:
 
-Use the two images below and the assets file to create a mobile first responsive web page. 
+Use the two images below and the assets file to create a mobile first responsive web page.
 
 Here are the two images:
 [Mobile](https://d13p2xj50zkyqm.cloudfront.net/promos/test/mobile.png)
