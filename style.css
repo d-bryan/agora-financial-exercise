@@ -17,13 +17,15 @@ body {
 }
 
 ul {
-  margin: 20px 60px;
+  margin: 40px 10px;
 }
 
 ul>li {
   text-align: left;
   display: list-item;
-  list-style: url(https://d13p2xj50zkyqm.cloudfront.net/promos_1/AF/RGS/RGS_Hotlist_0617/RGS_Hotlist_0617_CheckmarkBox.png);
+  list-style-type: none;
+  margin-right: 15px;
+  font-family: var(--lato-font);
 }
 
 hr {
@@ -80,11 +82,26 @@ input[type="checkbox"] + label {
   padding: 2.25rem;
 }
 
+#webinar-details img {
+  float: left;
+  padding: 15px 40px 30px 0px;
+  margin: 0 0 35px 0;
+}
+
+#webinar-details li {
+  display: inline-block;
+}
+
 #bio img {
   text-align: center;
   width: 85%;
   height: 85%;
 }
+
+/* #webinar-details li {
+  text-align: left;
+  padding-left: 20px;
+} */
 
 #warning {
   background-color: var(--pink);
@@ -176,6 +193,10 @@ input[type="checkbox"] + label {
   #bio img {
     height: 60vh;
     width: 25vw;
+  }
+
+  #webinar-details li {
+    padding-bottom: 3rem;
   }
 
   #warning-symbol {
